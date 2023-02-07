@@ -16,14 +16,22 @@ NFS or some other shared filesystem, or in every server.
 In the **'components'** section of your *main.php*:
 
 ```
-'assetManager' => [
-    'class' => 'EFtpAssetManager',
-    'lockAssets' => true,
-    'lockPath' => '/var/assets',
-    'basePath' => 'ftp://login:password@assets.example.com/',
-    'baseUrl' => 'https://assets.example.com/',    
-]
-```php
+<?php
+//...
+'components' => [
+    // ...
+
+    'assetManager' => [
+        'class' => 'EFtpAssetManager',
+        'lockAssets' => true,
+        'lockPath' => '/var/assets',
+        'basePath' => 'ftp://login:password@assets.example.com/',
+        'baseUrl' => 'https://assets.example.com/',    
+    ],
+    
+    // ...
+],
+```
 
 ## License
 
