@@ -8,7 +8,8 @@ NFS or some other shared filesystem, or in every server.
 
 ## Installation
 
-Unpack or clone the extension to your extensions directory.
+* Unpack or clone the extension to your extensions directory.
+* Setup your FTP and HTTP servers in the machine which will serve the assets.
 
 ## Usage
 
@@ -19,11 +20,10 @@ In the **'components'** section of your *main.php*:
     'class' => 'EFtpAssetManager',
     'lockAssets' => true,
     'lockPath' => '/var/assets',
-    'host' => 'ftp.example.com',
-    'path' => '/assets/',
-
+    'basePath' => 'ftp://login:password@assets.example.com/',
+    'baseUrl' => 'https://assets.example.com/',    
 ]
-```
+```php
 
 ## License
 
