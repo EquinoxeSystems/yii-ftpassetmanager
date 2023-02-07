@@ -67,7 +67,7 @@ class EFtpAssetManager extends CAssetManager
    /**
     * @var string the path in the server where assets will be stored.
     */
-   public $path = '';
+   protected $_basePath = '';
 
    /**
     * @var boolean whether to use a remote (FTP/FTPS) repository to store the
