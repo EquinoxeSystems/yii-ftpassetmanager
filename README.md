@@ -15,7 +15,7 @@ NFS or some other shared filesystem, or in every server.
 
 In the **'components'** section of your *main.php*:
 
-```
+```php
 <?php
 //...
 'components' => [
