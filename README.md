@@ -1,5 +1,10 @@
 # yii-ftpassetmanager
 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![GitHub all releases](https://img.shields.io/github/downloads/rgglez/yii-ftpassetmanager/total) 
+![GitHub issues](https://img.shields.io/github/issues/rgglez/yii-ftpassetmanager) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/yii-ftpassetmanager)
+
 EFtpAssetManager extends CAssetManager to allow the use of PHP's wrappers 
 ftp:// o http:// to store the assets. This is useful in a webfarm scenario
 where the webserver is the frontend to a number of PHP FastCGI servers which
@@ -37,4 +42,4 @@ In the **'components'** section of your *main.php*:
 
 Copyright © 2008 Rodolfo González González.
 
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+See the LICENSE file.
