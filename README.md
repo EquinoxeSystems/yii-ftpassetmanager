@@ -6,9 +6,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/yii-ftpassetmanager)
 
 EFtpAssetManager extends CAssetManager for [Yii](https://yiiframework.com) 1.1, to allow the use of PHP's wrappers 
-ftp:// o http:// to store the assets. This is useful in a webfarm scenario where the webserver is the frontend 
-to a number of PHP FastCGI servers which in other way would need to store the assets in a central server shared 
-with NFS or some other shared filesystem, or in every server.
+ftp:// or http:// to store the assets. This is useful in a webfarm scenario where the webserver is the frontend 
+to a number of PHP FastCGI servers which in other way would need to store the assets in a central storage shared 
+by NFS or some other shared filesystem, or in every server.
 
 ## Installation
 
